@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/gmail-icon.png" />
+    <title>Gmail Assignment</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- HEADER  -->
+      <div class="header">
+        <div class="header-left">
+          <img
+            class="main-menu point head-hover"
+            src="images/main-menu.png"
+            alt="main-menu"
+            width="30px"
+          />
+
+          <img
+            class="logo point"
+            src="images/gmail-icon.png"
+            alt="logo"
+            width="43px"
+          />
+          <!-- <img
+            class="logo"
+            src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_1x_r5.png"
+            alt="logo"
+            width="120px"
+          /> -->
+
+          <div class="logo-text"><span class="point"> Gmail</span></div>
+        </div>
+        <div class="header-middle">
+          <!-- <div class="search-bar"> -->
+          <input class="search-bar" type="text" placeholder="Search mail..." />
+          <!-- </div> -->
+        </div>
+        <div class="header-right">
+          <img
+            class="support point head-hover"
+            src="images/support.png"
+            alt="help"
+            width="35px"
+          />
+          <img
+            class="settings point head-hover"
+            src="images/settings.png"
+            alt="settings"
+            width="35px"
+          />
+          <img
+            class="apps point head-hover"
+            src="images/google-apps.png"
+            alt="google apps"
+            width="35px"
+          />
+          <img
+            class="profile point head-hover"
+            src="https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="profile"
+          />
+        </div>
+      </div>
+
+      <!-- LEFT -->
+      <div class="left">
+        <div class="compose">
+          <button>
+            <img class="compose-icon" src="images/compose.png" width="20px" />
+            <p>Compose</p>
+          </button>
+        </div>
+        <div class="mail-categories">
+          <ul>
+            <li class="highlight">
+              <!-- <div class="icon sub-box"></div> -->
+              <img
+                src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/inbox_fill_baseline_p900_20dp.png"
+                alt="inbox"
+                width="23px"
+              />
+              <p class="">Inbox</p>
+              <span class="">1454</span>
+            </li>
+
+            <li>
+              <div class="star icon"></div>
+              <p>starred</p>
+              <span>1454</span>
+            </li>
+
+            <li>
+              <div class="snoozed icon"></div>
+              <p>snoozed</p>
+              <span>1454</span>
+            </li>
+
+            <li>
+              <div class="important icon"></div>
+              <p>important</p>
+              <span>1454</span>
+            </li>
+
+            <li>
+              <div class="sent icon"></div>
+              <p>sent</p>
+              <span>1454</span>
+            </li>
+
+            <li>
+              <div class="draft icon"></div>
+              <p>draft</p>
+              <span>1454</span>
+            </li>
+
+            <li>
+              <div class="categories icon"></div>
+              <p>categories</p>
+              <span>1454</span>
+            </li>
+
+            <li>
+              <div class="more icon"></div>
+              <p>more</p>
+              <span>1454</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="labels">
+          <div class="labels-tag">
+            <p>labels</p>
+            <div class="icon label"></div>
+          </div>
+          <ul>
+            <li>
+              <div class="icon all-mail"></div>
+              <p class="">All mail</p>
+            </li>
+            <li>
+              <div class="icon all-mail"></div>
+              <p>Notes</p>
+            </li>
+            <li>
+              <div class="icon all-mail"></div>
+              <p>Personal</p>
+            </li>
+            <li>
+              <div class="icon more"></div>
+              <p>More</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- MAIN -->
+      <!-- main head -->
+      <div class="main box-main">
+        <div class="main-head">
+          <div class="m-icons sub-box">
+              <!-- class="head-hover point" -->
+              <img
+              src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/check_box_outline_blank_baseline_nv700_20dp.png"
+              alt=""
+            />
+            <img
+              src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/arrow_drop_down_baseline_nv700_20dp.png"
+              alt=""
+            />
+            <img
+              src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/refresh_baseline_nv700_20dp.png"
+              alt=""
+            />
+            <img
+              src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/more_vert_baseline_nv700_20dp.png"
+              alt=""
+            />
+          </div>
+          <div class="m-icons-right sub-box">
+            <p>1-50 of 3,000</p>
+            <img
+              src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/chevron_left_baseline_nv700_20dp.png"
+              alt=""
+            />
+            <img
+              src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/chevron_right_baseline_nv700_20dp.png"
+              alt=""
+            />
+            <!-- <img src="https://www.gstatic.com/inputtools/images/ita_sprite8_2x.png" alt=""> -->
+            <img
+              src="https://www.gstatic.com/images/icons/material/system_gm/2x/arrow_drop_down_black_20dp.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <!-- main body -->
+        <ul>
+          <li>
+            <div class="mails">
+              <div class="m-icons sub-box">
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/check_box_outline_blank_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/star_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/label_important_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <span>ALAT</span>
+              </div>
+              <p class="sub-box">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim delectus laboriosam adipisci repellendus laudantium fuga at unde facere, molestias necessitatibus ea distinctio voluptatibus! Esse reiciendis eveniet veritatis a et sunt.
+              </p>
+              <span class="sub-box">feb 8</span>
+            </div>
+          </li>
+
+          <li>
+            <div class="mails">
+              <div class="m-icons sub-box">
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/check_box_outline_blank_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/star_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/label_important_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <span>Binance</span>
+              </div>
+              <p class="sub-box">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              </p>
+              <span class="sub-box">feb 8</span>
+            </div>
+          </li>
+          <li>
+            <div class="mails">
+              <div class="m-icons sub-box">
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/check_box_outline_blank_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/star_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/label_important_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <span>Gtbank</span>
+              </div>
+              <p class="sub-box">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              </p>
+              <span class="sub-box">feb 8</span>
+            </div>
+          </li>
+          <li>
+            <div class="mails">
+              <div class="m-icons sub-box">
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/check_box_outline_blank_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/star_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/label_important_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <span>ALAT</span>
+              </div>
+              <p class="sub-box">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              </p>
+              <span class="sub-box">feb 8</span>
+            </div>
+          </li>
+          <li>
+            <div class="mails">
+              <div class="m-icons sub-box">
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/check_box_outline_blank_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/star_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/label_important_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <span>Blind</span>
+              </div>
+              <p class="sub-box">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              </p>
+              <span class="sub-box">feb 8</span>
+            </div>
+          </li>
+          <li>
+            <div class="mails">
+              <div class="m-icons sub-box">
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/check_box_outline_blank_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/star_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/label_important_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <span>Cashapp</span>
+              </div>
+              <p class="sub-box">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                lore
+              </p>
+              <span class="sub-box">feb 8</span>
+            </div>
+          </li>
+          <li>
+            <div class="mails">
+              <div class="m-icons sub-box">
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/check_box_outline_blank_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/star_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/label_important_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <span>Revolut</span>
+              </div>
+              <p class="sub-box">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              </p>
+              <span class="sub-box">feb 8</span>
+            </div>
+          </li>
+          <li>
+            <div class="mails">
+              <div class="m-icons sub-box">
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/check_box_outline_blank_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/star_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/label_important_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <span>Prolific</span>
+              </div>
+              <p class="sub-box">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              </p>
+              <span class="sub-box">feb 8</span>
+            </div>
+          </li>
+          <li>
+            <div class="mails">
+              <div class="m-icons sub-box">
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/check_box_outline_blank_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/star_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/label_important_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <span>Ubiquitous</span>
+              </div>
+              <p class="sub-box">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              </p>
+              <span class="sub-box">feb 8</span>
+            </div>
+          </li>
+          <li>
+            <div class="mails">
+              <div class="m-icons sub-box">
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/check_box_outline_blank_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/star_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/label_important_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <span>Fejozz</span>
+              </div>
+              <p class="sub-box">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              </p>
+              <span class="sub-box">feb 8</span>
+            </div>
+          </li>
+          <li>
+            <div class="mails">
+              <div class="m-icons sub-box">
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/check_box_outline_blank_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/star_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/label_important_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <span>Amazon</span>
+              </div>
+              <p class="sub-box">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              </p>
+              <span class="sub-box">feb 8</span>
+            </div>
+          </li>
+          <li>
+            <div class="mails">
+              <div class="m-icons sub-box">
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/check_box_outline_blank_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/star_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/label_important_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <span>Google</span>
+              </div>
+              <p class="sub-box">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              </p>
+              <span class="sub-box">feb 8</span>
+            </div>
+          </li>
+          <li>
+            <div class="mails">
+              <div class="m-icons sub-box">
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/check_box_outline_blank_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/star_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/label_important_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <span>Fintech</span>
+              </div>
+              <p class="sub-box">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              </p>
+              <span class="sub-box">feb 8</span>
+            </div>
+          </li>
+          <li>
+            <div class="mails">
+              <div class="m-icons sub-box">
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/check_box_outline_blank_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/star_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <img
+                  src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/label_important_baseline_nv700_20dp.png"
+                  alt=""
+                />
+                <span>Money</span>
+              </div>
+              <p class="sub-box">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              </p>
+              <span class="sub-box">feb 8</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="right">
+        <div class="quick-settings">
+          <div class="qs">
+            <h2>Quick settings</h2>
+            <div class="cancel icon"></div>
+          </div>
+          <button>See all settings</button>
+        </div>
+        <div class="apps-in-gmail right-container">
+          <h3>Apps in Gmail</h3>
+          <div class="options">
+            <div class="op-layout">
+              <p>Chat and Meet</p>
+              <a href="">Customize</a>
+            </div>
+            <div class="objects"></div>
+          </div>
+        </div>
+        <div class="density right-container">
+          <h3>Density</h3>
+          <div class="options">
+            <div class="op-layout">
+              <p>Chat and Meet</p>
+              <a href="">Customize</a>
+            </div>
+            <div class="objects"></div>
+          </div>
+        </div>
+        <div class="theme right-container"></div>
+        <div class="inbox-type right-container"></div>
+        <div class="reading-pane right-container"></div>
+        <div class="Email-threading right-container"></div>
+      </div>
+
+      <!-- NAV -->
+      <div class="nav sub-box">
+        <img
+          class="sub-box head-hover"
+          src="https://www.gstatic.com/companion/icon_assets/calendar_2020q4_2x.png"
+          alt=""
+        />
+        <img
+          class="sub-box head-hover"
+          src="https://www.gstatic.com/companion/icon_assets/keep_2020q4v3_2x.png"
+          alt=""
+        />
+        <img
+          class="sub-box head-hover"
+          src="https://www.gstatic.com/companion/icon_assets/tasks_2021_2x.png"
+          alt=""
+        />
+        <img
+          class="sub-box head-hover"
+          src="https://www.gstatic.com/companion/icon_assets/contacts_2022_2x.png"
+          alt=""
+        />
+        <div class="ruler">
+          <hr />
+        </div>
+        <img
+          class="sub-box head-hover"
+          src="https://fonts.gstatic.com/s/i/googlematerialicons/add/v21/black-24dp/1x/gm_add_black_24dp.png"
+          alt=""
+        />
+      </div>
+    </div>
+  </body>
+</html>
